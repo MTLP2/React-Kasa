@@ -48,11 +48,122 @@ table {
 }
 
 
-
+*{
+    outline: 1px solid red;
+}
 
 
 
 //-----------
+
+.heroContainer{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+
+    h3{
+        color: #FF6060;
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+
+    }
+
+}
+
+.subContainer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    h3{
+        width: 50px;
+    }
+
+    img{
+        height: 64px;
+        border-radius: 40px;
+
+    }
+}
+
+.subContainerCollumn{
+    display: flex;
+    flex-direction: column;
+
+    h2{
+        color: #FF6060;
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 51px;
+        letter-spacing: 0em;
+        text-align: left;
+
+    }
+    
+}
+
+
+
+
+.logementSliderContainer{
+    height: 100%;
+    img{
+        height: 515px;
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        
+    }
+
+    h3{
+        position: absolute;
+        font-size: 24px;
+        color: white;
+        top: 580px;
+        font-weight: 600;
+        left: 600px;
+    }
+    .sliderButton {
+        border: none;
+        background: none;
+        font-size: 152px;
+        color: white;
+        font-weight: 500;
+
+    
+        &:nth-child(2) {
+            position: absolute;
+            top: 300px;
+            right: 50px; 
+        }
+        &:nth-child(3) {
+            position: absolute;
+            top: 300px;
+            left: 50px; 
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .principalContainer{
     display: flex;
