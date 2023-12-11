@@ -81,7 +81,7 @@ table {
     gap: 10px;
 
     h3{
-        width: 50px;
+        width: 60px;
     }
 
     img{
@@ -121,12 +121,13 @@ table {
     }
 
     h3{
-        position: absolute;
+        position: relative;
         font-size: 24px;
         color: white;
-        top: 580px;
+        top: -70px;
         font-weight: 600;
-        left: 600px;
+        width: 40px;
+        left: 50%;
     }
     .sliderButton {
         border: none;
@@ -139,19 +140,45 @@ table {
         &:nth-child(2) {
             position: absolute;
             top: 300px;
-            right: 50px; 
+            right: 90px; 
         }
         &:nth-child(3) {
             position: absolute;
             top: 300px;
-            left: 50px; 
+            left: 90px; 
         }
     }
 }
 
 
 
+.containerTag{
+    display: flex;
+    gap: 20px;
+    width: 700px;
+    flex-wrap: wrap;
 
+
+     
+    h4{
+        display: flex;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+
+        background-color: #FF6060;
+        color: white;
+        justify-content: center;align-items: center;
+        border-radius: 10px;
+        width: 115px;
+        height: 25px;
+
+    }
+
+}
 
 
 
@@ -169,7 +196,8 @@ table {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 45px;
+    margin: 85px;
+    margin-top: 40px;
 
     nav{
         display: flex;
@@ -207,7 +235,7 @@ table {
         }
     }
 
-    .homePage{
+    .majorContainer{
         margin-top: 40px;
 
         
@@ -218,7 +246,7 @@ table {
         display: flex;
         justify-content: center;
         align-items: center;
-        border-radius: 20px;
+        border-radius: 30px;
         height: 223px;
         overflow: hidden;
     

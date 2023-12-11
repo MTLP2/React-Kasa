@@ -10,7 +10,7 @@ export default function Home({data}) {
 
 
   return (
-    <section className='homePage'>
+    <section className='majorContainer'>
         <Boximg srcImg={'/img/IMG.png'} textBox={'Chez vous, partout et ailleurs'} />
         <div className="contentContainer">
           {data.map((element)=>(
