@@ -188,7 +188,7 @@ html, body {
 .logementSliderContainer{
     height: 100%;
     img{
-        height: 684px;
+        height: 575px;
         width: 100%;
         border-radius: 20px;
         object-fit: cover;
@@ -272,10 +272,10 @@ html, body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    padding-top: 70px;
+    padding-top: 100px;
     padding-left: 100px;
     padding-right: 100px;
-    padding-bottom: 69px;    
+    padding-bottom: 76px;    
 
     nav{
         display: flex;
@@ -439,7 +439,7 @@ html, body {
     justify-content: center;
     flex-direction: column;
     background-color: #000000;
-    height: 509px;width: 100%;
+    height: 326px;width: 100%;
     gap: 80px;
 
     img{
