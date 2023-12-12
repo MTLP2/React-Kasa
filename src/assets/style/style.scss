@@ -52,11 +52,7 @@ html, body {
     height: 100%;
   }
 
-  #root {
-    margin: 0;
-    position: relative;
-    min-height: 100%;
-  }
+
 
 
 
@@ -126,6 +122,7 @@ html, body {
 .heroContainer{
     display: flex;
     justify-content: space-between;
+    margin-top: 20px;
 
     .ratingContainer{
         display: flex;
@@ -142,7 +139,7 @@ html, body {
     h3{
         color: #FF6060;
         font-family: Montserrat;
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 500;
         line-height: 26px;
         letter-spacing: 0em;
@@ -175,7 +172,7 @@ html, body {
 
     h2{
         color: #FF6060;
-        font-size: 36px;
+        font-size: 42px;
         font-weight: 500;
         line-height: 51px;
         letter-spacing: 0em;
@@ -191,7 +188,7 @@ html, body {
 .logementSliderContainer{
     height: 100%;
     img{
-        height: 515px;
+        height: 684px;
         width: 100%;
         border-radius: 20px;
         object-fit: cover;
@@ -217,12 +214,12 @@ html, body {
     
         &:nth-child(2) {
             position: absolute;
-            top: 300px;
+            top: 450px;
             right: 90px; 
         }
         &:nth-child(3) {
             position: absolute;
-            top: 300px;
+            top: 450px;
             left: 90px; 
         }
     }
@@ -233,6 +230,7 @@ html, body {
 .containerTag{
     display: flex;
     gap: 20px;
+    margin-top: 15px ;
     width: 700px;
     flex-wrap: wrap;
 
@@ -274,8 +272,10 @@ html, body {
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    margin: 85px;
-    margin-top: 40px;
+    padding-top: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 69px;    
 
     nav{
         display: flex;
@@ -315,7 +315,7 @@ html, body {
 
     .majorContainer{
         
-        margin-top: 40px;
+        margin-top: 70px;
 
         
     }
@@ -371,7 +371,6 @@ html, body {
         border-radius: 20px;
         gap: 60px;
         padding: 50px;
-        margin-bottom: 350px;
         margin-top: 30px;
 
         .Link{
@@ -436,21 +435,20 @@ html, body {
 
 .Footer{
     display: flex;
-    position: absolute;
-    bottom: 0;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     background-color: #000000;
-    height: 309px;width: 100%;
+    height: 509px;width: 100%;
+    gap: 80px;
 
     img{
-        width: 122px;
+        width: 202px;
         filter: brightness(5);
     }
 
     h2{
-        font-size: 24px;
+        font-size: 36px;
         color: white;
         font-weight: 500;
         line-height: 34px;
