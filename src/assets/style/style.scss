@@ -72,9 +72,12 @@ html, body {
     flex-direction: column;
 
     .contentboxbutton{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         background-color: #FF6060;
         border: none;
-        border-radius: 10px;
+        border-radius: 5px;
         color: white;
         font-size: 24px;
         font-weight: 500;
@@ -119,6 +122,10 @@ html, body {
 
 }
 
+.desactive{
+    display: none;
+}
+
 .heroContainer{
     display: flex;
     justify-content: space-between;
@@ -156,7 +163,7 @@ html, body {
     gap: 10px;
 
     h3{
-        width: 60px;
+        width: 90px;
     }
 
     img{
@@ -460,3 +467,25 @@ html, body {
 }
 
 
+.Apropos{
+    padding-bottom: 72px;
+
+
+        .boxImage{
+            height: 280px;
+        }
+
+        .aproposInfo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .contentbox{
+            margin-top: 20px;
+            width: 90% !important;
+            gap: 20px;
+        }
+    
+}

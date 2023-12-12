@@ -28,7 +28,7 @@ export default function Dropbox({titleDrop, contentDrop}) {
 
     return (
          <div className='contentbox'>
-            <button className='contentboxbutton' onClick={toggleClass}>{titleDrop}</button>
+            <button className='contentboxbutton' onClick={toggleClass}>{titleDrop} <i className={isActive ? "fa-solid fa-chevron-down" : "fa-solid fa-chevron-up"}></i> </button>
             <div className={isActive ? "contentboxlogement active-class" : "contentboxlogement"}>
                 {filter()}
             </div>
