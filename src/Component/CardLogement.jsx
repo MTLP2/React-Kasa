@@ -2,10 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Apropos from './Apropos'
 
-export default function CardLogement({id, srcImg, titleLogement}) {
-  const handleClick = () =>{
-  }
-  
+export default function CardLogement({id, srcImg, titleLogement}) { 
   
   return (
     <Link className='Link'  to={`/Fiche-Logement/${id}`}>

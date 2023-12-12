@@ -1,7 +1,8 @@
 import React, { useState } from 'react'
 import '../assets/style/style.scss'
-import Boximg from './Boximg'
-import CardLogement from './CardLogement'
+import Boximg from '../Component/Boximg'
+import CardLogement from '../Component/CardLogement'
+
 
 
 export default function Home({data}) {
