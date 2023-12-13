@@ -1,0 +1,30 @@
+.heroContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+    .ratingContainer{
+        display: flex;
+        margin-top: 15px;
+
+        gap: 5px;
+
+        img{
+            width: 100%;
+            height: 26px;
+        }
+    }
+
+    h3{
+        color: $orange;
+        font-family: Montserrat;
+        font-size: 22px;
+        font-weight: 500;
+        line-height: 26px;
+        letter-spacing: 0em;
+        text-align: left;
+        
+
+    }
+
+}

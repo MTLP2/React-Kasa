@@ -1,0 +1,41 @@
+.logementSliderContainer{
+    height: 100%;
+    img{
+        height: 575px;
+        width: 100%;
+        border-radius: 20px;
+        object-fit: cover;
+        
+    }
+
+    h3{
+        position: relative;
+        font-size: 24px;
+        color: white;
+        top: -70px;
+        font-weight: 600;
+        width: 40px;
+        left: 50%;
+    }
+    .sliderButton {
+        border: none;
+        background: none;
+        font-size: 152px;
+        color: white;
+        font-weight: 500;
+
+    
+        &:nth-child(2) {
+            position: absolute;
+            top: 450px;
+            right: 90px; 
+        }
+        &:nth-child(3) {
+            position: absolute;
+            top: 450px;
+            left: 90px; 
+        }
+    }
+}
+
+

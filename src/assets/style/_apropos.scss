@@ -1,0 +1,22 @@
+.Apropos{
+    padding-bottom: 72px;
+
+
+        .boxImage{
+            height: 280px;
+        }
+
+        .aproposInfo{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .contentbox{
+            margin-top: 20px;
+            width: 90% !important;
+            gap: 20px;
+        }
+    
+}

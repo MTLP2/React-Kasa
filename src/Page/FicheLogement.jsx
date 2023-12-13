@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams , useNavigate} from 'react-router-dom';
 import Slider from '../Component/slider';
 import Tag from '../Component/Tag';
 import Rating from '../Component/Rating';
 import Dropbox from '../Component/Dropbox';
+import Eror from './Eror';
+
 
 export default function FicheLogement({ data }) {
   let { id } = useParams();
@@ -13,9 +15,11 @@ export default function FicheLogement({ data }) {
     const foundData = data.find(element => element.id.toString() === id);
     setResultData(foundData)
   }, [id, data]);
+    let navigate = useNavigate()
 
   if (!resultData) {
-    return <div>Chargement...</div>; // ou tout autre gestion d'affichage pour un état vide
+    return <Eror></Eror>;
+     // ou tout autre gestion d'affichage pour un état vide
   }
 
 

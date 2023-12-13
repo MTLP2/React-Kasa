@@ -1,0 +1,29 @@
+
+.containerTag{
+    display: flex;
+    gap: 20px;
+    margin-top: 15px ;
+    width: 700px;
+    flex-wrap: wrap;
+
+
+     
+    h4{
+        display: flex;
+        font-family: Montserrat;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: center;
+
+        background-color: $orange;
+        color: white;
+        justify-content: center;align-items: center;
+        border-radius: 10px;
+        width: 115px;
+        height: 25px;
+
+    }
+
+}

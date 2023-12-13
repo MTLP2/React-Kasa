@@ -1,0 +1,25 @@
+.Footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000000;
+    height: 326px;width: 100%;
+    gap: 80px;
+
+    img{
+        width: 202px;
+        filter: brightness(5);
+    }
+
+    h2{
+        font-size: 36px;
+        color: white;
+        font-weight: 500;
+        line-height: 34px;
+        letter-spacing: 0em;
+        text-align: center;
+
+
+    }
+}
