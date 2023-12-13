@@ -7,9 +7,18 @@
     height: 326px;width: 100%;
     gap: 80px;
 
+    @include for-phone{
+        gap: 10px;
+        height: 260px;
+    }
+
     img{
         width: 202px;
         filter: brightness(5);
+
+        @include for-phone{
+            width: 152px;
+        }
     }
 
     h2{
@@ -19,6 +28,13 @@
         line-height: 34px;
         letter-spacing: 0em;
         text-align: center;
+
+        @include for-phone{
+            font-size: 15px;
+            width: 150px;
+            line-height: 15px;
+
+        }
 
 
     }

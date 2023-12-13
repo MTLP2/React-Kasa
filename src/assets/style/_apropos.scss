@@ -1,9 +1,13 @@
 .Apropos{
     padding-bottom: 72px;
 
-
+    @include for-phone{
+        padding-bottom: 0px;
+    }
         .boxImage{
             height: 280px;
+
+            
         }
 
         .aproposInfo{
@@ -11,12 +15,22 @@
             flex-direction: column;
             align-items: center;
             margin-top: 30px;
+
+            @include for-phone{
+                margin-top: 0px;
+            }
         }
+
+
 
         .contentbox{
             margin-top: 20px;
             width: 90% !important;
             gap: 20px;
+
+            @include for-phone{
+                width: 100% !important;
+            }
         }
     
 }

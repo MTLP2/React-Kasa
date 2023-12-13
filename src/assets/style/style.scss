@@ -34,6 +34,12 @@ $grey: rgba(246, 246, 246, 1);
 
 //-----------
 
+@mixin for-phone{
+    @media (max-width:375px) {
+        @content
+        
+    }
+}
 
 @import "tag";
 @import "apropos";

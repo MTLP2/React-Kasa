@@ -1,11 +1,5 @@
 
 
-@mixin for-phone{
-    @media (max-width:375px) {
-        @content
-        
-    }
-}
 
 .principalContainer{
     display: flex;
@@ -17,6 +11,7 @@
     padding-bottom: 76px;    
 
     @include for-phone{
+        padding-top: 20px;
         padding-left: 11px;
         padding-right: 11px;
 
@@ -73,6 +68,10 @@
         
         margin-top: 70px;
 
+        @include for-phone{
+            margin-top: 20px;
+        }
+
         
     }
 
@@ -86,7 +85,7 @@
         overflow: hidden;
 
         @include for-phone{
-            height: 120px;
+            height: 150px;
             justify-content: flex-start;
             border-radius: 10px;
         }
