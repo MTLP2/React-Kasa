@@ -1,4 +1,12 @@
 
+
+@mixin for-phone{
+    @media (max-width:375px) {
+        @content
+        
+    }
+}
+
 .principalContainer{
     display: flex;
     justify-content: space-between;
@@ -8,20 +16,34 @@
     padding-right: 100px;
     padding-bottom: 76px;    
 
+    @include for-phone{
+        padding-left: 11px;
+        padding-right: 11px;
+
+    }
+
     nav{
         display: flex;
         justify-content: space-between;
 
         
+        
         img{
             height: 68px;
             width: 210.32px;
+
+            @include for-phone{
+                width: 145px;
+                height: 46.88px;
+    
+            }
         }
 
         ul{
             display: flex;
             gap: 20px;
             list-style: none;
+            align-items: center;
             text-decoration: none;
 
             li .Link {
@@ -33,7 +55,10 @@
                 text-align: right;
                 color: $orange;
 
-
+                @include for-phone{
+                    font-size: 16px;
+        
+                }
             }
 
             li .Link:hover{
@@ -59,6 +84,12 @@
         border-radius: 30px;
         height: 223px;
         overflow: hidden;
+
+        @include for-phone{
+            height: 120px;
+            justify-content: flex-start;
+            border-radius: 10px;
+        }
     
         img{
             position: absolute;
@@ -78,6 +109,15 @@
             letter-spacing: 0em;
             text-align: left;
             z-index: 1; 
+
+            @include for-phone{
+                font-size: 24px;
+                width: 200px;
+                line-height: 30px;
+                padding-left: 10px;
+
+
+            }
         }
     
         ::before {
@@ -90,6 +130,13 @@
             z-index: -1;
             background: rgba(0, 0, 0, 0.339); 
             border-radius: 20px;
+
+            @include for-phone{
+                border-radius: 10px;
+
+            }
+
+            
         }
     }
     
@@ -119,7 +166,13 @@
             z-index: 1;
             border-radius: 10px;            
             overflow: hidden;
-        
+
+            @include for-phone{
+                width: 345px;
+    
+            }
+
+            
             img{
                 position: absolute;
                 z-index: -2;
@@ -163,6 +216,4 @@
 
 
 }
-
-
 

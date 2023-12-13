@@ -7,8 +7,8 @@ export default function Nav({logo}) {
     <nav>
         <Link to={"/"}><img src={logo} alt="" /> </Link>
         <ul>
-            <li><Link className='Link' to="/">Accueil</Link></li>
-            <li><Link className='Link' to="/Apropos">A propos</Link></li>
+            <li><Link className='Link' to="/">ACCUEIL</Link></li>
+            <li><Link className='Link' to="/Apropos">A PROPOS</Link></li>
         </ul>
     </nav>
   )

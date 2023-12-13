@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useParams , useNavigate} from 'react-router-dom';
-import Slider from '../Component/slider';
+import Slider from '../Component/Slider';
 import Tag from '../Component/Tag';
 import Rating from '../Component/Rating';
 import Dropbox from '../Component/Dropbox';

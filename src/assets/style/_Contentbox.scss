@@ -8,6 +8,16 @@ gap: 10px;
 display: flex;
 flex-direction: column;
 
+
+.active-class{
+    height: 200px;
+
+}
+
+.desactive{
+    display: none;
+}
+
 .contentboxbutton{
     display: flex;
     justify-content: space-between;
@@ -47,6 +57,8 @@ text-align: left;
 .contentInfo{
     padding: 10px;
     padding-top: 20px;
+    list-style: none;       
+
 }
 
 
