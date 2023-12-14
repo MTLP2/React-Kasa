@@ -34,8 +34,9 @@ $grey: rgba(246, 246, 246, 1);
 
 //-----------
 
+
 @mixin for-phone{
-    @media (max-width:375px) {
+    @media (max-width:555px) {
         @content
         
     }

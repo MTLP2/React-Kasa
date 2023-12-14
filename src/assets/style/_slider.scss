@@ -5,6 +5,10 @@
         width: 100%;
         border-radius: 20px;
         object-fit: cover;
+
+        @include for-phone{
+            height: 310px;
+        }
         
     }
 
@@ -16,6 +20,10 @@
         font-weight: 600;
         width: 40px;
         left: 50%;
+
+        @include for-phone{
+            display: none;
+        }
     }
     .sliderButton {
         border: none;
@@ -28,12 +36,24 @@
         &:nth-child(2) {
             position: absolute;
             top: 450px;
-            right: 90px; 
+            right: 110px; 
+
+            @include for-phone{
+                font-size: 38px;
+                right: 20px;
+                top: 220px;
+            }
         }
         &:nth-child(3) {
             position: absolute;
             top: 450px;
-            left: 90px; 
+            left: 110px; 
+
+            @include for-phone{
+                font-size: 38px;
+                left: 20px;
+                top: 220px;
+            }
         }
     }
 }

@@ -14,6 +14,24 @@
     }
 }
 
+.hostInfo{
+    justify-content: flex-end;
+
+    @include for-phone{
+
+        h3{
+            font-size: 18px;
+            width: 60px;
+            line-height: 20px;
+            margin-top: 20px;
+        }
+
+        img{
+            height: 45px;
+        }
+    }
+}
+
 .subContainerCollumn{
     display: flex;
     flex-direction: column;
@@ -26,6 +44,10 @@
         letter-spacing: 0em;
         text-align: left;
 
+        @include for-phone{
+            font-size: 32px;
+        }
     }
+
     
 }

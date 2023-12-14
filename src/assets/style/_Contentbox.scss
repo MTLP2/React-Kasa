@@ -1,6 +1,3 @@
-.hostInfo{
-    justify-content: flex-end;
-}
 
 .contentbox{
 width: 45%;
@@ -8,15 +5,19 @@ gap: 10px;
 display: flex;
 flex-direction: column;
 
+    @include for-phone{
+        width: 100%;
+        gap: 20px;
+
+    }
+
 
 .active-class{
     height: 200px;
 
 }
 
-.desactive{
-    display: none;
-}
+
 
 .contentboxbutton{
     display: flex;
@@ -35,6 +36,12 @@ flex-direction: column;
     padding: 10px;
     width: 100%;
 
+    @include for-phone{
+        font-size: 15px;
+        padding: 5px;
+
+
+    }
 }
 }
 .contentboxlogement{

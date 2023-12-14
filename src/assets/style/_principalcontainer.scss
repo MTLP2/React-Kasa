@@ -1,5 +1,8 @@
 
 
+.desactive{
+    display: none;
+}
 
 .principalContainer{
     display: flex;
@@ -69,7 +72,7 @@
         margin-top: 70px;
 
         @include for-phone{
-            margin-top: 20px;
+            margin-top: 30px;
         }
 
         
